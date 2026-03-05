@@ -14,7 +14,7 @@ Below are the prompts submitted to GitHub Copilot during this session:
    Generated the initial `index.html` with a styled student profile card containing a coloured header band, an avatar placeholder, student name, stream badge, divider, and bio — all built with pure HTML and CSS.
 
 2. **"remove header and footer"**  
-   Removed the page-level `<header>` and `<footer>` elements, leaving only the core profile card centered on the page.
+   Removed the component-level `<header>` and `<footer>` elements, leaving only the core profile card centered on the page.
 
 3. **"change the primary color to #FE2A14"**  
    Applied the new primary color (`#FE2A14`) across the card header gradient, the stream badge text color, and the badge background tint in `index.html`.
