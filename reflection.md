@@ -25,6 +25,8 @@ Below are the prompts submitted to GitHub Copilot during this session:
 5. **"add dark mode support, subtle micro interactions. Improve the design to match an official academic setting. Slight curves and gradients and slight shadows are required."**  
    Implemented the full redesign: introduced CSS custom properties with a `@media (prefers-color-scheme: dark)` block for automatic dark mode, added hover lift and avatar scale micro-interactions, redesigned the card header with an academic crimson gradient, added a university name label, refined badge and typography styles, and applied consistent subtle shadows throughout.
 
+6. **"relax the spacing among elements and increase the scale of the card a bit"**  
+   Increased the card width from 320px to 360px, expanded the header band height, enlarged the avatar, loosened internal padding on the card content, added more breathing room between the stream badge and divider, and improved the bio line-height for a more open, readable layout.
 
 ---
 
