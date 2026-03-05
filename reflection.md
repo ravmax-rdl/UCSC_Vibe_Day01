@@ -19,13 +19,18 @@ Below are the prompts submitted to GitHub Copilot during this session:
 3. **"change the primary color to #FE2A14"**  
    Applied the new primary color (`#FE2A14`) across the card header gradient, the stream badge text color, and the badge background tint in `index.html`.
 
+4. **"suggest possible improvements to the id card page using only pure html and css"**  
+   Received a set of design and UX improvement suggestions — including dark mode support, micro-interactions, refined typography, CSS custom properties for theming, and subtle shadows and gradients — all achievable without JavaScript or external libraries.
+
+5. **"add dark mode support, subtle micro interactions. Improve the design to match an official academic setting. Slight curves and gradients and slight shadows are required."**  
+   Implemented the full redesign: introduced CSS custom properties with a `@media (prefers-color-scheme: dark)` block for automatic dark mode, added hover lift and avatar scale micro-interactions, redesigned the card header with an academic crimson gradient, added a university name label, refined badge and typography styles, and applied consistent subtle shadows throughout.
 
 
 ---
 
 ## Reflections
 
-Working with an AI coding assistant significantly accelerated the development workflow. Rather than manually searching through the stylesheet to locate every instance of the primary color, a single natural-language prompt handled all three relevant CSS properties simultaneously. The session demonstrated how vibe coding translates directly into precise code changes with minimal friction.
+Working with an AI coding assistant significantly accelerated the development workflow. Natural-language prompts handled complex, multi-property changes simultaneously — from color theming to full dark mode implementation — without needing to manually locate each CSS rule. The session demonstrated how vibe coding translates intent directly into precise, production-ready code with minimal friction.
 
 ---
 
