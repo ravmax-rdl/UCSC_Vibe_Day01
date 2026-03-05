@@ -38,7 +38,9 @@
       }
 
       /* ── Reset & Base ── */
-      *, *::before, *::after {
+      *,
+      *::before,
+      *::after {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -47,7 +49,12 @@
       body {
         min-height: 100vh;
         background: var(--bg-body);
-        font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+        font-family:
+          'Inter',
+          'Segoe UI',
+          system-ui,
+          -apple-system,
+          sans-serif;
         color: var(--text-main);
         display: flex;
         align-items: center;
@@ -82,15 +89,6 @@
         align-items: center;
         padding-top: 18px;
         position: relative;
-      }
-
-      .univ-title {
-        color: rgba(255, 255, 255, 0.95);
-        font-size: 0.65rem;
-        font-weight: 800;
-        letter-spacing: 2.5px;
-        text-transform: uppercase;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       }
 
       /* ── Avatar Section ── */
@@ -135,7 +133,7 @@
       .student-id-label {
         font-size: 0.6rem;
         font-weight: 700;
-        color: var(--primary-red);
+        color: var(--text-primary);
         text-transform: uppercase;
         letter-spacing: 1px;
         margin-bottom: 4px;
@@ -191,20 +189,21 @@
     <main class="main-content">
       <div class="id-card">
         <!-- Academic Header -->
-        <header class="card-header">
-          <div class="univ-title">University of Colombo</div>
+        <div class="card-header">
+          <div class="student-id-label">Student ID Card</div>
           <div class="avatar-wrapper">
             <div class="avatar">
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
+                <path
+                  d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"
+                />
               </svg>
             </div>
           </div>
-        </header>
+        </div>
 
         <!-- Student Details -->
         <article class="card-content">
-          <div class="student-id-label">Student ID Card</div>
           <h1 class="student-name">Ravindu Liyanage</h1>
           <span class="student-stream">Computer Science</span>
           <hr class="divider" />
