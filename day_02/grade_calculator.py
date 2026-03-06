@@ -1,12 +1,19 @@
+def get_mark(subject):
+    while True:
+        mark = float(input(f"Enter mark for {subject}: "))
+        if 0 <= mark <= 100:
+            return mark
+        print("Invalid mark. Please enter a value between 0 and 100.")
+
 while True:
     name = input("\nEnter student's name (or 'exit' to quit): ")
     if name.lower() == "exit":
         print("Goodbye!")
         break
 
-    mark1 = float(input("Enter mark for Subject 1: "))
-    mark2 = float(input("Enter mark for Subject 2: "))
-    mark3 = float(input("Enter mark for Subject 3: "))
+    mark1 = get_mark("Subject 1")
+    mark2 = get_mark("Subject 2")
+    mark3 = get_mark("Subject 3")
 
     average = (mark1 + mark2 + mark3) / 3
 
