@@ -22,18 +22,18 @@ UCSC_Vibecoding_G16/
 
 ## Team
 
-| Name             | GitHub       |
-| ---------------- | ------------ |
-| Ravindu Liyanage | `ravmax-rdl` |
-|                  |              |
-|                  |              |
-|                  |              |
-|                  |              |
-|                  |              |
-|                  |              |
-|                  |              |
-|                  |              |
-|                  |              |
+| Name                | GitHub       |
+| ------------------- | ------------ |
+| Sandina             |              |
+| Thulana Gunasekara  |              |
+| Ravindu Liyanage    | `ravmax-rdl` |
+| Ivishan Rathnayake  |              |
+| Nesitha             |              |
+| Chathuri Rajapaksha |              |
+| Dinithi             |              |
+| Nethmi Imasha       |              |
+| Niduka Akalanka     |              |
+| Chaniru             |              |
 
 ---
 
