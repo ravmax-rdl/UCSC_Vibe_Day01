@@ -26,6 +26,6 @@ while True:
     else:
         grade = "Fail"
 
-    print(f"\nStudent: {name}")
-    print(f"Average Mark: {average:.2f}")
+    print(f"\nName: {name}")
+    print(f"Average: {average:.2f}")
     print(f"Grade: {grade}")
