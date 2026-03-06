@@ -1,11 +1,5 @@
 # Reflection Report – UCSC Vibe Day 01
 
-## Overview
-
-This report documents the AI-assisted development session for the **Student Profile Card** project, built using HTML and CSS as part of the UCSC Vibe Day 01 activity.
-
----
-
 ## Prompts Used
 
 Below are the prompts submitted to GitHub Copilot during this session:
@@ -27,12 +21,6 @@ Below are the prompts submitted to GitHub Copilot during this session:
 
 6. **"relax the spacing among elements and increase the scale of the card a bit"**  
    Increased the card width from 320px to 360px, expanded the header band height, enlarged the avatar, loosened internal padding on the card content, added more breathing room between the stream badge and divider, and improved the bio line-height for a more open, readable layout.
-
----
-
-## Reflections
-
-Working with an AI coding assistant significantly accelerated the development workflow. Natural-language prompts handled complex, multi-property changes simultaneously — from color theming to full dark mode implementation — without needing to manually locate each CSS rule. The session demonstrated how vibe coding translates intent directly into precise, production-ready code with minimal friction.
 
 ---
 
